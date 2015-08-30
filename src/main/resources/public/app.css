@@ -1,0 +1,13 @@
+/*body {
+  color: red;
+}*/
+.hidden {
+  display: none;
+}
+
+span {
+  color:red;
+}
+h1, h5 {
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+<!--Search for stylists client list-->
+<div class="row">
+  <div class="col-md-12">
+    <h1>Bella Stylists</h1>
+
+    #foreach($search in $searchresults)
+      <div class="well">
+        $search.getClientName()
+        <li>$search.getPhone()</li>
+        <li>$search.getEmail()</li>
+        <li>$search.getAddress()</li>
+      </div>
+    #end
+
+  </div>
+</div>
+
+<br><h3><a href="/">Home</a></h3></br>
